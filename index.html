@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+       <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav>
+        <a href="./login.html">Login</a>
+        <a href="./index.html">Registro</a>
+        <a href="./tablaregistro.html">Tabla</a>
+        
+    </nav>
+
+       <body class="main-bg">
+              <div class="login-container text-c animated flipInX">
+                      <div>
+                          <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
+                      </div>
+                          <h3 class="text-whitesmoke">Registro</h3>
+                      <div class="container-content">
+                          <form class="margin-t">
+                              <div class="form-group">
+                                   <input type="text" placeholder="Ingrese su Nombre" class="form-control" id="Nombre">
+                            </div>
+                              <div class="form-group">
+                                   <input type="text" placeholder="Ingrese su Apellido" class="form-control" id="Apellido">
+                            </div>
+                               <div class="form-group">
+                                   <input type="text" placeholder="Ingrese su Direccion" class="form-control" id="Direccion">
+                            </div>
+                               <div class="form-group">
+                                   <input type="text" placeholder="Ingrese su Identificación" class="form-control" id="Identificacion">
+                            </div>
+                               <div class="form-group">
+                                   <input type="number" placeholder="Ingrese su Edad" class="form-control" id="Edad">
+                            </div>
+                               <div class="form-group">
+                                   <select class="form-select" id="Sexo">
+                                          <option value="Masculino">Masculino</option>
+                                          <option value="Femenino">Femenino</option>
+                                          </select>                               </div>
+                               <div class="form-group">
+                                   <input type="email" placeholder="Ingrese su Email" class="form-control" id="Email">
+                            </div>
+                               <div class="form-group">
+                                   <input type="tel" placeholder="Ingrese su Teléfono" class="form-control" id="Telefono">
+                            </div>
+                             
+                              
+                              <a class="text-darkyellow" href="#"><small><br><br><br></small></a>
+                          </form>
+                           
+                          <button type="submit" class="form-button button-l margin-b" onclick="registrarUsuario()">Registrar</button>
+                          <button type="submit" class="form-button button-l margin-b" onclick="listarUsuarios()">Listar</button>
+
+                          
+          
+                          <p class="margin-t text-whitesmoke"><br><br></small> </p>
+                      </div>
+                  </div>
+    
+       </body>
+       
+    <h1><br></h1>
+       <footer>
+        <p>Luis bruges ©</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
